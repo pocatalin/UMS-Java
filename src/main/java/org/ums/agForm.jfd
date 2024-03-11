@@ -1,0 +1,56 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.9" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:17:p, par l {seq t {comp lbSelectCourse::::522:x, space :::p}, seq t {par t {comp cmbCourseSelect::::455:x, seq t {par l {comp lbSStudent::::154:x, comp cmbStudent::::154:x}, space :::p, par l:::p {comp tbLab:::::x, comp lbGrade:::p:66:p}, space :::p, par l:::p {comp lbCourse:::::x, comp tbCourse:::::x}, space :::p, par l {comp lbFinal::l:p:66:p, seq l {comp tbFinal:::p::p, space :::p, comp btAdd:::p::p}}}}, space :p:73:p}}}}"
+			"$verticalGroup": "par l {seq l {space :p:17:p, comp lbSelectCourse:::p::p, space :::p, comp cmbCourseSelect:::p::p, space u:::p, par b {comp lbSStudent::b:p::p, comp lbGrade::b:p::p, comp lbCourse::b:p::p, comp lbFinal::b:p::p}, space :::p, par b {comp tbLab::b:p::p, comp cmbStudent::b:p::p, comp tbCourse::b:p::p, comp tbFinal::b:p::p, comp btAdd::b:p::p}, space ::29:x}}"
+		} ) {
+			name: "panelAddGrade"
+			"preferredSize": new java.awt.Dimension( 500, 200 )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbStudent"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tbLab"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tbCourse"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tbFinal"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btAdd"
+				"text": "Add"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lbSStudent"
+				"text": "Select Student"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lbGrade"
+				"text": "Lab Grade"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lbCourse"
+				"text": "Course Grade"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lbFinal"
+				"text": "Final Grade"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbCourseSelect"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lbSelectCourse"
+				"text": "Select Course"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 545, 150 )
+		} )
+	}
+}

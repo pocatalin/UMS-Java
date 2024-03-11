@@ -1,0 +1,48 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.9" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:16:p, par l {comp tfCourseName::::198:x, seq l {comp label1:::p::p, space :0:127:x}}, space s:::p, par l {comp cmbDepartment::l:p::p, comp label2::l:p::p}, space u:::p, par l {comp cmbPorfessor::l:p:125:p, comp label3::l:p::p}, space u:::p, par l {seq {comp tfCredits:::p:79:p, space :::p, comp btAdd:::p::p}, comp label4:::p::p}, space :::p}}"
+			"$verticalGroup": "par l {seq l {space :p:25:p, par b {comp label1::b:p::p, comp label2::b:p::p, comp label3::b:p::p, comp label4::b:p::p}, space :::p, par b {comp btAdd::b:p::p, comp tfCredits::b:p::p, comp cmbPorfessor::b:p::p, comp cmbDepartment::b:p::p, comp tfCourseName::b:p::p}, space ::89:x}}"
+		} ) {
+			name: "panelacf"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfCourseName"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbDepartment"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbPorfessor"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfCredits"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btAdd"
+				"text": "Add"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Course Name"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Department"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Professor"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Credits"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 90, 15 )
+			"size": new java.awt.Dimension( 620, 160 )
+		} )
+	}
+}

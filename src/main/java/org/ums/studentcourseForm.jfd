@@ -1,0 +1,35 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.9" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :::p, par l {comp cmbCourse:::p::p, comp label1:::::x}, space u:::p, par l {seq l {comp tbStudents:::p:385:p, space u:::p, comp buttonAdd:::p::p}, comp label2:::p::p}, space :p:7:p}}"
+			"$verticalGroup": "par l {seq l {space :p:17:p, par l:::p {comp label2:::::x, comp label1:::p::p}, space :::p, par t {par b:t {comp tbStudents::b:p::p, comp buttonAdd::b:p::p}, comp cmbCourse::t:p::p}, space ::22:x}}"
+		} ) {
+			name: "panelsd"
+			"preferredSize": new java.awt.Dimension( 700, 105 )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbCourse"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tbStudents"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "buttonAdd"
+				"text": "Add"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Course"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Enter Student IDs"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 65, 35 )
+			"size": new java.awt.Dimension( 570, 85 )
+		} )
+	}
+}

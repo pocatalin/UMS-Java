@@ -1,0 +1,192 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.9" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+			name: "tabbedPane1"
+			"preferredSize": new java.awt.Dimension( 1500, 700 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {comp scrollPane2::l::1050:x, seq {par l {seq {space :p:6:p, comp btAddStudent:::p:98:p, space :::p, comp btAddProfessor:::p::p, space :::p, comp btAddCourse:::p::p, space :::p, comp btAddStudentCourses:::p::p, space :::p, comp btAddAttedance:::p::p, space :::p, comp btAddFaculties:::p::p, space :::p, comp btAddGroup:::p::p, space :::p, comp btAddDepartments:::p::p}, seq l {space :::p, comp btSelectRow:::p::p, space s:::p, comp btSaveChanges:::p::p}}, space ::134:x}}"
+				"$verticalGroup": "par l {seq t {space :::p, par b {comp btAddProfessor::b:p::p, comp btAddStudent::b:p::p, comp btAddCourse::b:p::p, comp btAddStudentCourses::b:p::p, comp btAddAttedance::b:p::p, comp btAddFaculties::b:p::p, comp btAddGroup::b:p::p, comp btAddDepartments::b:p::p}, space :::p, par b {comp btSelectRow::b:p::p, comp btSaveChanges::b:p::p}, space :::x, comp scrollPane2:::p:506:p}}"
+			} ) {
+				name: "panel1"
+				"preferredSize": new java.awt.Dimension( 1500, 700 )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane2"
+					"preferredSize": new java.awt.Dimension( 1500, 700 )
+					add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+						name: "tabbedPane2"
+						"preferredSize": new java.awt.Dimension( 1500, 700 )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneStudents"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableStudents"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Students"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneProfessors"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableProfessors"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Professors"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneProfessorCourses"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableProfessorCourses"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Professors Courses"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneProfessorCoursesStudents"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableProfessorCourseStudents"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Professor Course Students"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneCourses"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableCourses"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Courses"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneStudentCourses"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableStudentCourses"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Student Courses"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneGrades"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableGrades"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Grades"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneAttendance"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableAttendance"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Attendance"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneStudentGroup"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableStudentGroup"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Student Group"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneYearTable"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableYearTable"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Year Table"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneStudentYear"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableStudentYear"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Student Year"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneDepartments"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableDepartments"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Departments"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneStudentDepartments"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableStudentDepartments"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Student Departments"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneFaculties"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableFaculties"
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Faculties"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPaneGroups"
+							add( new FormComponent( "javax.swing.JTable" ) {
+								name: "tableGroups"
+								"preferredScrollableViewportSize": new java.awt.Dimension( 600, 400 )
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Groups"
+						} )
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddStudent"
+					"text": "Add Student"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddProfessor"
+					"text": "Add Professor"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddCourse"
+					"text": "Add Course"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddStudentCourses"
+					"text": "Add Student Courses"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddAttedance"
+					"text": "Add Attendance"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddDepartments"
+					"text": "Add Departments"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddFaculties"
+					"text": "Add Faculty"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btAddGroup"
+					"text": "Add Group"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btSelectRow"
+					"text": "Select Row"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btSaveChanges"
+					"text": "Save Changes"
+				} )
+			}, new FormLayoutConstraints( null ) {
+				"title": "All Tables"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1050, 600 )
+		} )
+	}
+}

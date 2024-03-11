@@ -1,0 +1,46 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.9" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l:::p {comp label2:::p::p, seq l {space :::p, par l {comp lbUser:::p::p, comp label1::l:p::p}, space u:::p, par l {comp tbUser:::p:200:p, comp pfPassword::l:p:200:p}}, seq t {comp optionLabel:::p::p, space :::x, comp btLogIn:::p::p}}, space :0:0:x}}"
+			"$verticalGroup": "par l {seq {comp label2:::p::p, space :::p, par b {comp lbUser::b:p::p, comp tbUser::b:p::p}, space u:::p, par b {comp label1::b:p::p, comp pfPassword::b:p::p}, space :::x, par l {seq t {comp btLogIn:::p::p, space :p:34:p}, seq t {comp optionLabel:::p::p, space :p:20:p}}}}"
+		} ) {
+			name: "panelLogIn"
+			"preferredSize": new java.awt.Dimension( 300, 135 )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tbUser"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lbUser"
+				"text": "User ID"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "JetBrains Mono", 0, 4, false )
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "pfPassword"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Password"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "JetBrains Mono", 0, 4, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "optionLabel"
+				"text": "Options"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btLogIn"
+				"text": "Log In"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Log In"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "JetBrains Mono ExtraBold", 0, 10, false )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 85, 55 )
+			"size": new java.awt.Dimension( 300, 155 )
+		} )
+	}
+}

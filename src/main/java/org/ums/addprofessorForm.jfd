@@ -1,0 +1,89 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.9" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {seq l {par l {comp tfPhoneNumber::l:p:100:p, comp label6::l:p::p}, space :::p, par l {seq l {comp tfAddress:::p:260:p, space :::p, comp cmbFaculty:::p:150:p}, comp label7::l:p::p, seq l {space :p:266:p, comp label8:::p::p}}, space :::p, par l {seq {comp cmbDepartment:::p:150:p, space :::x, comp btAdd:::p::p, space :p:18:p}, seq {comp label9:::p::p, space :::x}}}, seq l {par l {comp label1:::p::p, comp tfFirstName:::p:100:p}, space :::p, par l {comp tfLastName::l:p:100:p, comp label2::l:p::p}, space :::p, par l {comp label3::l:p::p, comp tfCNP::l:p:150:p}, space :::p, par t {comp label4:::p::p, comp cmbYear:::p:70:p}, space :::p, comp cmbMonth:::p:50:p, space :::p, comp cmbDay:::p:50:p, space :::p, par l {comp tfEmail:::p:184:p, comp label5:::p::p}, space :::x}}}}"
+			"$verticalGroup": "par l {seq l {space :p:30:p, par b {comp label1::b:p::p, comp label2::b:p::p, comp label3::b:p::p, comp label4::b:p::p, comp label5::b:p::p}, space :::p, par b {comp tfFirstName::b:p::p, comp tfLastName::b:p::p, comp tfCNP::b:p::p, comp cmbYear::b:p::p, comp cmbMonth::b:p::p, comp cmbDay::b:p::p, comp tfEmail::b:p::p}, space u:::p, par b {comp label6::b:p::p, comp label7::b:p::p, comp label8::b:p::p, comp label9::b:p:16:p}, space :::p, par b {comp tfPhoneNumber::b:p::p, comp tfAddress::b:p::p, comp cmbFaculty::b:p::p, comp btAdd::b:p::p, comp cmbDepartment::b:p::p}, space ::51:x}}"
+		} ) {
+			name: "panelapf"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btAdd"
+				"text": "Add"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfFirstName"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfLastName"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfCNP"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfEmail"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "First Name"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Last Name"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "CNP"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Date of Birth"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Email"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfPhoneNumber"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Phone Number"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tfAddress"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Address"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbFaculty"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Faculty"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbDepartment"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "Department"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbYear"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbMonth"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "cmbDay"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 80 )
+			"size": new java.awt.Dimension( 765, 185 )
+		} )
+	}
+}
